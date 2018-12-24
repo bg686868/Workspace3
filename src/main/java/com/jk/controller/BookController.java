@@ -48,6 +48,7 @@ public class BookController {
     @RequestMapping("addBook")
     @ResponseBody
     public void addBook(Book book){
+        System.out.println("11");
         bookService.addBook(book);
     }
 
